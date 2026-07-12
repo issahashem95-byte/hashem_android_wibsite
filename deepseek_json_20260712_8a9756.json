@@ -1,0 +1,31 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "name": "Hashim Launcher Pro",
+      "latestVersion": "3.2.0",
+      "minimumVersion": "2.0.0",
+      "downloadUrl": "https://www.mediafire.com/file/your-app-link",
+      "isForceUpdate": false,
+      "updateMessage": "نسخة جديدة متاحة! تضم تحسينات في الأداء وميزات جديدة."
+    },
+    {
+      "id": 2,
+      "name": "Nova Widgets",
+      "latestVersion": "1.7.4",
+      "minimumVersion": "1.0.0",
+      "downloadUrl": "https://www.mediafire.com/file/your-widget-link",
+      "isForceUpdate": false,
+      "updateMessage": "تحديث جديد مع تحسينات وإصلاحات."
+    },
+    {
+      "id": 3,
+      "name": "Glass Icons Pack",
+      "latestVersion": "2.1.1",
+      "minimumVersion": "1.0.0",
+      "downloadUrl": "https://www.mediafire.com/file/your-icons-link",
+      "isForceUpdate": false,
+      "updateMessage": "إضافة أيقونات جديدة وتحسين الجودة."
+    }
+  ]
+}
