@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تفاصيل التطبيق · Hashim Android</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <!-- ===== SPLASH SCREEN ===== -->
+    <div id="splash">
+        <canvas id="particles-canvas"></canvas>
+        <div class="splash-content">
+            <div class="splash-logo">⌘ Hashim</div>
+            <div class="splash-sub">Android · Platform</div>
+            <div class="splash-loader"></div>
+        </div>
+    </div>
+
+    <!-- ===== MAIN APP ===== -->
+    <div id="app" style="display:none;">
+        <div class="container">
+
+            <!-- HEADER -->
+            <header class="header">
+                <a href="index.html" class="logo-group">
+                    <span class="logo-icon">⌘</span>
+                    <span class="logo-text">Hashim<span>Android</span></span>
+                </a>
+                <div class="header-actions">
+                    <div class="search-wrap">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="ابحث عن تطبيق..." />
+                    </div>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- APP DETAIL -->
+            <div id="appDetail">
+                <!-- يتم إدخال تفاصيل التطبيق بواسطة JavaScript -->
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <span>© 2026 Hashim Android · مصمم باحترافية</span>
+                <div class="footer-links">
+                    <a href="about.html">من نحن</a>
+                    <a href="contact.html">اتصل بنا</a>
+                    <a href="privacy.html">سياسة الخصوصية</a>
+                    <a href="terms.html">الشروط</a>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- ===== DOWNLOAD MODAL ===== -->
+    <div class="modal-overlay" id="downloadModal">
+        <div class="modal glass">
+            <span class="icon">📦</span>
+            <h2>جاري تجهيز التحميل...</h2>
+            <p>سيتم تحويلك إلى رابط التحميل خلال</p>
+            <div class="countdown" id="countdown">5</div>
+            <div class="progress-bar">
+                <div class="fill" id="progressFill"></div>
+            </div>
+            <button class="btn-close-modal" id="cancelDownload">إلغاء</button>
+        </div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="assets/js/splash.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

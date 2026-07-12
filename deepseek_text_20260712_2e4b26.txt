@@ -1,0 +1,28 @@
+
+## 🚀 التثبيت والتشغيل
+
+1. قم بنسخ المشروع
+2. افتح `index.html` في المتصفح
+3. استمتع!
+
+## 🔧 التقنيات المستخدمة
+
+- HTML5
+- CSS3 (Glassmorphism, Flexbox, Grid)
+- JavaScript (Vanilla)
+- Font Awesome
+- Google Fonts (Inter)
+
+## 📝 ملاحظات
+
+- جميع التطبيقات من تطوير Hashim Dev
+- الروابط في `mediafireUrl` يجب تحديثها بروابطك الفعلية
+
+## 📞 التواصل
+
+- البريد الإلكتروني: support@hashim-android.com
+- الموقع: https://hashim-android.com
+
+---
+
+© 2026 Hashim Android · جميع الحقوق محفوظة
